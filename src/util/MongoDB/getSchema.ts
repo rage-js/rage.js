@@ -1,7 +1,7 @@
 import fsS from "fs";
 import * as fsP from "fs/promises";
 import formatLog from "../formatLog";
-import MongoDBSchema from "../../classes/mongodb/MongoDBSchema";
+import MongoDBSchema from "../../classes/MongoDB/MongoDBSchema";
 import path from "path";
 
 /**
