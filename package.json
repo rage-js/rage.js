@@ -1,5 +1,5 @@
 {
-  "name": "rage.js",
+  "name": "@rage-js/main",
   "version": "0.0.1",
   "description": "RAGE.js - An Implementation of RAGE",
   "main": "dist/index.js",
@@ -40,5 +40,8 @@
   },
   "bin": {
     "rage": "./dist/cli.js"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
