@@ -1,0 +1,41 @@
+{
+  "name": "rage.js",
+  "version": "0.0.1",
+  "description": "RAGE.js - An Implementation of RAGE",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "scripts": {
+    "build": "npx tsup src/index.ts src/cli.ts src/methods/PushAfterInterval.ts src/methods/NoInterval.ts --format cjs,esm --dts",
+    "docs": "npx typedoc"
+  },
+  "author": "Maghish",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rage-js/core.git"
+  },
+  "keywords": [
+    "rage-cli",
+    "rage",
+    "ragejs",
+    "rage-js"
+  ],
+  "bugs": {
+    "url": "https://github.com/rage-js/rage.js/issues"
+  },
+  "homepage": "https://github.com/rage-js/rage.js#readme",
+  "dependencies": {
+    "@inquirer/prompts": "^7.0.0",
+    "chalk": "^4.0.0",
+    "mongodb": "^6.9.0",
+    "nanospinner": "^1.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.7",
+    "tsup": "^8.3.0",
+    "typescript": "^5.6.3"
+  },
+  "bin": {
+    "rage": "./dist/cli.js"
+  }
+}
