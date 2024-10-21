@@ -1,0 +1,19 @@
+{
+  "entryPoints": ["./src/index.ts"],
+  "out": "./docs",
+  "name": "RAGE.js",
+  "plugin": ["typedoc-github-theme"],
+  "hideGenerator": true,
+  "alwaysCreateEntryPointModule": false,
+  "excludePrivate": true,
+  "excludeProtected": true,
+  "excludeExternals": true,
+  "disableSources": true,
+  "sidebarLinks": {
+    "🔗 Repository": "https://github.com/rage-js/rage.js"
+  },
+  "markdownItOptions": {
+    "html": true,
+    "linkify": true
+  }
+}
